@@ -1,11 +1,10 @@
-export default `/*自定义样式，实时生效*/
+export default /*自定义样式，实时生效*/
 
 /* 全局属性
  * 页边距 padding: 30px;
  * 全文字体 font-family: ptima-Regular;
  * 英文换行 word-break: break-all;
  */
-
 #nice {
   background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg,rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%);
   background-size: 20px 20px;
