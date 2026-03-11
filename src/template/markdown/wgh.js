@@ -1,4 +1,4 @@
-export default /*自定义样式，实时生效*/
+export default `/*自定义样式，实时生效*/
 
 /* 全局属性
  * 页边距 padding: 30px;
@@ -265,4 +265,4 @@ export default /*自定义样式，实时生效*/
 /* 行内公式
  */
 #nice .inline-equation svg {
-}
+}`;
