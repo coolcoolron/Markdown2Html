@@ -14,9 +14,9 @@ jobs:
           persist-credentials: false
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
-          node-version: latest
+          node-version: '16'
       - run: npm install -g yarn
       - run: node --version
       - run: npm --version 
