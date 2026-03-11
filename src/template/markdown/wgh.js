@@ -5,6 +5,7 @@ export default `/*自定义样式，实时生效*/
  * 全文字体 font-family: ptima-Regular;
  * 英文换行 word-break: break-all;
  */
+
 #nice {
   background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg,rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%);
   background-size: 20px 20px;
@@ -22,6 +23,7 @@ export default `/*自定义样式，实时生效*/
  * 字体大小 font-size: 14px;
  * 首行缩进 text-indent: 2em;
  */
+
 #nice p {
   box-sizing: border-box;
   margin-bottom: 16px;
@@ -40,17 +42,15 @@ export default `/*自定义样式，实时生效*/
   border-bottom: 2px solid rgb(198, 196, 196);
   box-sizing: border-box;
 }
-
 /* 一级标题内容 */
 #nice h1 .content {
   padding-top: 5px;
   padding-bottom: 5px;
   color: rgb(160, 160, 160);
-  font-size: 13px;
+  font-size: 20px;
   line-height: 2;
   box-sizing: border-box;
 }
-
 /* 一级标题修饰 请参考有实例的主题 */
 #nice h1:after {
 }
@@ -64,7 +64,6 @@ export default `/*自定义样式，实时生效*/
   overflow: hidden;
   box-sizing: border-box;
 }
-
 /* 二级标题内容 */
 #nice h2 .content {
   margin-left: -10px;
@@ -77,9 +76,8 @@ export default `/*自定义样式，实时生效*/
   padding-right: 30px;
   padding-left: 30px;
   line-height: 40px;
-  font-size: 16px;
+  font-size: 18px;
 }
-
 /* 二级标题修饰 请参考有实例的主题 */
 #nice h2:after {
 }
@@ -87,41 +85,41 @@ export default `/*自定义样式，实时生效*/
 /* 三级标题 */
 #nice h3 {
   margin: 20px auto 5px;
-  border-top: 1px solid rgb(221, 221, 221);
   box-sizing: border-box;
 }
-
 /* 三级标题内容 */
 #nice h3 .content {
-  margin-top: -1px;
-  padding-top: 6px;
-  padding-right: 5px;
-  padding-left: 5px;
-  font-size: 17px;
-  border-top: 2px solid rgb(33, 33, 34);
   display: inline-block;
-  line-height: 1.1;
+  font-weight: bold;
+  background: linear-gradient(#fff 60%, rgb(221, 221, 221) 40%);
+  padding: 2px 13px 2px 0px;
+  margin-right: 0px;
+  height: 50%;
+  font-size: 17px;
 }
-
 /* 三级标题修饰 请参考有实例的主题 */
 #nice h3:after {
 }
 
+/* 四级标题 */
 #nice h4 {
   margin: 10px auto -1px;
-  border-top: 1px solid rgb(221, 221, 221);
   box-sizing: border-box;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 10px;
+  border-left: 5px solid #DEC6FB;
 }
-
+/* 四级标题内容 */
 #nice h4 .content {
   margin-top: -1px;
   padding-top: 6px;
   padding-right: 5px;
-  padding-left: 5px;
-  font-size: 14px;
-  border-top: 2px solid rgb(33, 33, 34);
+  font-size: 16px;
   display: inline-block;
-  line-height: 1.1;
+}
+/* 四级标题修饰 请参考有实例的主题 */
+#nice h4:after {
 }
 
 /* 无序列表整体样式
@@ -166,7 +164,7 @@ export default `/*自定义样式，实时生效*/
   line-height: 1.75em;
 }
 
-/* 链接 
+/* 链接
  * border-bottom: 1px solid #009688;
  */
 #nice a span {
@@ -241,7 +239,7 @@ export default `/*自定义样式，实时生效*/
   color: rgb(239, 112, 96);
 }
 
-/* "参考资料"四个字 
+/* "参考资料"四个字
  * 内容 content: "参考资料";
  */
 #nice .footnotes-sep:before {
@@ -252,7 +250,7 @@ export default `/*自定义样式，实时生效*/
 }
 
 /* 参考资料文字 */
-#nice .footnote-item p { 
+#nice .footnote-item p {
 }
 
 /* 参考资料解释 */
@@ -267,5 +265,5 @@ export default `/*自定义样式，实时生效*/
 
 /* 行内公式
  */
-#nice .inline-equation svg {  
-}`;
+#nice .inline-equation svg {
+}
