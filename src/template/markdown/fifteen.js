@@ -102,7 +102,7 @@ export default `/*自定义样式，实时生效*/
 * 背景色 background: gray;
 */
 #nice blockquote {
-  margin: 0 8px;
+  margin: 20px auto;
   border: none;
   background: #ffffff;
   box-shadow: 0 1px 2px -2px rgba(0,0,0,.16), 0 3px 6px 0 rgba(0,0,0,.12), 0 5px 12px 4px rgba(0,0,0,.09);
