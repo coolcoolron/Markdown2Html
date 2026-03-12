@@ -17,11 +17,6 @@ Fork 自 [markdown2html](https://github.com/TaleAi/markdown2html)，略有调整
 - 欢迎在线使用：
   - https://md.weiyan.cc/
 
-## 主题
-
-> 主题: <https://github.com/macrozheng/mall-learning/blob/master/document/json/localThemeList.json>
-
-> 欢迎提交主题，提供更多文章示例~~
 
 ## 友情链接
 
